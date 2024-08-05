@@ -43,9 +43,12 @@
 1. 고객 ID가 1인 고객의 주소를 `"New Address, City, Country"`로 업데이트하는 SQL UPDATE 문을 작성하세요. (10점)
 #
 ![ex_screenshot](./resource/UPDATE_Customer.png)
+![ex_screenshot](./resource/UPDATE_RESULT.png)
+
 2. 주문 ID가 1인 주문에서 특정 제품(예: 제품 ID 2)을 삭제하는 SQL DELETE 문을 작성하세요. (10점)
 #
 ![ex_screenshot](./resource/DELETE_Order_Detail.png)
+![ex_screenshot](./resource/DELETE_RESULT.png)
 
 
 ## 문제 4: JOIN을 활용한 데이터 조회 (30점)
@@ -56,11 +59,13 @@
 1. 각 주문에 포함된 제품의 이름, 수량, 단가, 총 금액(수량 * 단가), 그리고 주문 날짜를 조회하는 SQL JOIN 문을 작성하세요. (15점)
 #
 ![ex_screenshot](./resource/SQL_SELECT2.png)
+![ex_screenshot](./resource/JOIN_RESULT1.png)
 
 
 2. 각 고객의 이름과 그들이 총 몇 개의 제품을 구매했는지를 보여주는 SQL JOIN 문을 작성하세요. (15점)
 #
 ![ex_screenshot](./resource/SQL_SELECT3.png)
+![ex_screenshot](./resource/JOIN_RESULT2.png)
 
 ## 평가 기준
 - **데이터베이스 모델링**: 관계형 데이터베이스 구조를 이해하며 적절한 테이블을 설계하는 능력.
