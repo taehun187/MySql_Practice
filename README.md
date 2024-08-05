@@ -16,6 +16,7 @@
 ![ex_screenshot](./resource/Table2.png)
 
 
+
 ## 문제 2: 데이터 삽입 및 조회 (25점)
 **시나리오:**  
 위에서 설계한 데이터베이스에 샘플 데이터를 삽입하고, 고객의 주문 내역을 조회하려고 합니다.
@@ -23,6 +24,7 @@
 **문제:**  
 1. 각 테이블(Customer, Product, Order, Order_Detail)에 최소 2개의 샘플 데이터를 삽입하는 SQL INSERT 문을 작성하세요. (15점)
    - 예시: 고객 2명, 제품 2개, 주문 2개, 각 주문당 2개의 제품
+  
 # 
 ![ex_screenshot](./resource/INSERT.png)
 ![ex_screenshot](./resource/Customer_Table.png)
@@ -34,6 +36,7 @@
 
 #
 ![ex_screenshot](./resource/SQL.png)
+
 
 ## 문제 3: 데이터 갱신 및 삭제 (20점)
 **시나리오:**  
@@ -57,12 +60,14 @@
 
 **문제:**  
 1. 각 주문에 포함된 제품의 이름, 수량, 단가, 총 금액(수량 * 단가), 그리고 주문 날짜를 조회하는 SQL JOIN 문을 작성하세요. (15점)
+
 #
 ![ex_screenshot](./resource/SQL_SELECT2.png)
 ![ex_screenshot](./resource/JOIN_RESULT1.png)
 
 
 2. 각 고객의 이름과 그들이 총 몇 개의 제품을 구매했는지를 보여주는 SQL JOIN 문을 작성하세요. (15점)
+
 #
 ![ex_screenshot](./resource/SQL_SELECT3.png)
 ![ex_screenshot](./resource/JOIN_RESULT2.png)
