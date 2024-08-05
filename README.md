@@ -10,8 +10,9 @@
    - 제품(Product): 제품 ID, 이름, 가격, 재고
    - 주문(Order): 주문 ID, 고객 ID, 주문 날짜
    - 주문 상세(Order_Detail): 주문 ID, 제품 ID, 수량, 단가
+     
 # 
-![ex_screenshot](./resource/Table1.png)
+![ex_screenshot](./resource/MakeTable1.png)
 ![ex_screenshot](./resource/Table2.png)
 
 
@@ -30,6 +31,7 @@
 ![ex_screenshot](./resource/Order_Detail_Table.png)
 
 2. 특정 고객이 한 주문에 포함된 모든 제품과 그 수량을 조회하는 SQL SELECT 문을 작성하세요. (10점)
+
 #
 ![ex_screenshot](./resource/SQL.png)
 
