@@ -31,7 +31,7 @@
 
 2. 특정 고객이 한 주문에 포함된 모든 제품과 그 수량을 조회하는 SQL SELECT 문을 작성하세요. (10점)
 #
-![ex_screenshot](./resource/SQL SELECT1.png)
+![ex_screenshot](./resource/SQL_SELECT1.png)
 
 ## 문제 3: 데이터 갱신 및 삭제 (20점)
 **시나리오:**  
@@ -53,12 +53,12 @@
 **문제:**  
 1. 각 주문에 포함된 제품의 이름, 수량, 단가, 총 금액(수량 * 단가), 그리고 주문 날짜를 조회하는 SQL JOIN 문을 작성하세요. (15점)
 #
-![ex_screenshot](./resource/SQL SELECT2.png)
+![ex_screenshot](./resource/SQL_SELECT2.png)
 
 
 2. 각 고객의 이름과 그들이 총 몇 개의 제품을 구매했는지를 보여주는 SQL JOIN 문을 작성하세요. (15점)
 #
-![ex_screenshot](./resource/SQL SELECT3.png)
+![ex_screenshot](./resource/SQL_SELECT3.png)
 
 ## 평가 기준
 - **데이터베이스 모델링**: 관계형 데이터베이스 구조를 이해하며 적절한 테이블을 설계하는 능력.
