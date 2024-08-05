@@ -22,8 +22,16 @@
 **문제:**  
 1. 각 테이블(Customer, Product, Order, Order_Detail)에 최소 2개의 샘플 데이터를 삽입하는 SQL INSERT 문을 작성하세요. (15점)
    - 예시: 고객 2명, 제품 2개, 주문 2개, 각 주문당 2개의 제품
+# 
+![ex_screenshot](./resource/INSERT.png)
+![ex_screenshot](./resource/Customer_Table.png)
+![ex_screenshot](./resource/Product_Table.png)
+![ex_screenshot](./resource/Orders_Table.png)
+![ex_screenshot](./resource/Order_Detail_Table.png)
 
 2. 특정 고객이 한 주문에 포함된 모든 제품과 그 수량을 조회하는 SQL SELECT 문을 작성하세요. (10점)
+#
+![ex_screenshot](./resource/SQL SELECT1.png)
 
 ## 문제 3: 데이터 갱신 및 삭제 (20점)
 **시나리오:**  
@@ -31,7 +39,12 @@
 
 **문제:**  
 1. 고객 ID가 1인 고객의 주소를 `"New Address, City, Country"`로 업데이트하는 SQL UPDATE 문을 작성하세요. (10점)
+#
+![ex_screenshot](./resource/UPDATE_Customer.png)
 2. 주문 ID가 1인 주문에서 특정 제품(예: 제품 ID 2)을 삭제하는 SQL DELETE 문을 작성하세요. (10점)
+#
+![ex_screenshot](./resource/DELETE_Order_Detail.png)
+
 
 ## 문제 4: JOIN을 활용한 데이터 조회 (30점)
 **시나리오:**  
@@ -39,7 +52,13 @@
 
 **문제:**  
 1. 각 주문에 포함된 제품의 이름, 수량, 단가, 총 금액(수량 * 단가), 그리고 주문 날짜를 조회하는 SQL JOIN 문을 작성하세요. (15점)
+#
+![ex_screenshot](./resource/SQL SELECT2.png)
+
+
 2. 각 고객의 이름과 그들이 총 몇 개의 제품을 구매했는지를 보여주는 SQL JOIN 문을 작성하세요. (15점)
+#
+![ex_screenshot](./resource/SQL SELECT3.png)
 
 ## 평가 기준
 - **데이터베이스 모델링**: 관계형 데이터베이스 구조를 이해하며 적절한 테이블을 설계하는 능력.
@@ -50,11 +69,6 @@
 ## 시험 시간
 1시간
 
-
-
-
-# 
-![ex_screenshot](./resource/)
 
 
 
