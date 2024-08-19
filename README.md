@@ -17,6 +17,7 @@
 
 
 
+
 ## 문제 2: 데이터 삽입 및 조회 (25점)
 **시나리오:**  
 위에서 설계한 데이터베이스에 샘플 데이터를 삽입하고, 고객의 주문 내역을 조회하려고 합니다.
@@ -38,6 +39,8 @@
 ![ex_screenshot](./resource/SQL.png)
 
 
+
+
 ## 문제 3: 데이터 갱신 및 삭제 (20점)
 **시나리오:**  
 고객의 주소가 변경되었으며, 특정 주문에 포함된 제품을 삭제하려고 합니다.
@@ -52,6 +55,8 @@
 #
 ![ex_screenshot](./resource/DELETE_Order_Detail.png)
 ![ex_screenshot](./resource/DELETE_RESULT.png)
+
+
 
 
 ## 문제 4: JOIN을 활용한 데이터 조회 (30점)
